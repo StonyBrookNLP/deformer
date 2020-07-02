@@ -148,7 +148,7 @@ tail -n353432 mnli-train-shuf.jsonl > mnli-train.jsonl
 
 #### download BERT vocab
 
-download [bert.vocab](https://github.com/StonyBrookNLP/deformer/releases/download/v1/bert.vocab) to `data/res`
+download [bert.vocab](https://github.com/StonyBrookNLP/deformer/releases/download/v1.0/bert.vocab) to `data/res`
 
 #### generating training and evaluation examples:
 
@@ -185,8 +185,8 @@ download [bert.vocab](https://github.com/StonyBrookNLP/deformer/releases/downloa
 
 #### SQuAD 1.1 Quickstart
 
-download original fine-tuned BERT-base checkpoints from [bert-base-squad_v1.1.tgz](https://github.com/StonyBrookNLP/deformer/releases/download/v1/bert-base-squad_v1.1.tgz)
-and DeFormer fine-tuned version from [ebert-base-s9-squad_v1.1.tgz](https://github.com/StonyBrookNLP/deformer/releases/download/v1/ebert-base-s9-squad_v1.1.tgz)
+download original fine-tuned BERT-base checkpoints from [bert-base-squad_v1.1.tgz](https://github.com/StonyBrookNLP/deformer/releases/download/v1.0/bert-base-squad_v1.1.tgz)
+and DeFormer fine-tuned version from [ebert-base-s9-squad_v1.1.tgz](https://github.com/StonyBrookNLP/deformer/releases/download/v1.0/ebert-base-s9-squad_v1.1.tgz)
 
 `python eval.py -m bert -t squad_v1.1 2>&1 | tee data/bert-base-eval.log`
 example output:
