@@ -20,7 +20,7 @@ This repo is the code for the [DeFormer paper](https://awk.ai/assets/deformer.pd
       * [Tools](#tools)
       * [Handy Commands](#handy-commands)
    * [FAQ](#faq)
-   * [Acknowledgement](#acknowledgement)
+   * [Citation](#citation)
 <!--te-->
 
 ## Installation
@@ -489,6 +489,10 @@ e.g. `python tools/rename_checkpoint_variables.py "data/ckpt/bert/mnli/" -p "ber
   }
   
   ````
+
+## FAQ
+
+If you have any question, please create an issue.
 
 ## Citation
 
