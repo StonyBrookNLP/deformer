@@ -1,0 +1,7 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+.env/
+data/
+.ipynb_checkpoints
+*.egg-info
+*__pycache__
